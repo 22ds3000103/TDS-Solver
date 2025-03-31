@@ -44,7 +44,7 @@ AIPROXY_TOKEN=your_openai_api_key
 ### **5. Run the Application**
 Start the Flask development server:
 ```bash
-python -m api.app
+uvicorn index:app --reload
 ```
 
 The app will be available at `http://127.0.0.1:8000`.
